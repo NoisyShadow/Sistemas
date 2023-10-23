@@ -8,16 +8,16 @@ int main(){
     float A, B, C;
     int operador;
     printf("Ingrese el primer numero:\n ");
-    scanf("%f", A);
+    scanf("%f", &A);
 
     printf("Ingrese el segundo numero: \n");
-    scanf("%f", B);
+    scanf("%f", &B);
 
     printf("Ingrese el tercer numero: \n");
-    scanf("%f", C);
+    scanf("%f", &C);
 
     printf("Ingrese la operacion que desee realizar ingresando el operador: \n");
-    scanf("%f", operador);
+    scanf("%f", &operador);
         
     //float suma = (A + B + C);
     //float resta = (A - B - C);
@@ -26,19 +26,19 @@ int main(){
 
     if (operador = "+" ){
         float suma = (A + B + C);
-        printf("La suma de los numeros es: %.4f\n " suma);
+        printf("La suma de los numeros es: %.4f\n ", suma);
 
     } else if (operador = "-" ){
         float resta = (A - B - C);
-        printf("La suma de los numeros es: %.4f\n" resta);
+        printf("La suma de los numeros es: %.4f\n", resta);
 
     } else if (operador = "*" ){
         float producto = (A * B * C);
-        printf("La suma de los numeros es: %.4f\n" producto);
+        printf("La suma de los numeros es: %.4f\n", producto);
 
     } else if (operador = "/" ){
         float division = (A / B / C);
-        printf("La suma de los numeros es: %.4f\n"division);
+        printf("La suma de los numeros es: %.4f\n", division);
         
     } else{
         printf("Operador no reconocido");
